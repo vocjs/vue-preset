@@ -1,0 +1,31 @@
+{
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {
+      "classComponent": true,
+      "useTsWithBabel": true
+    },
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "base",
+      "lintOn": [
+        "save"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "vue-cli-plugin-jq": {
+      "less": true,
+      "eslint": false,
+      "forkTsChecker": {},
+      "mock": {}
+    }
+  },
+  "vueVersion": "3",
+  "cssPreprocessor": "dart-sass"
+}
+
+
