@@ -17,11 +17,15 @@
       ]
     },
     "@vue/cli-plugin-unit-jest": {},
-    "vue-cli-plugin-jq": {
-      "less": true,
-      "eslint": false,
-      "forkTsChecker": {},
-      "mock": {}
+    "vue-cli-plugin-extend-base": {
+      "importType": "auto",
+      "style": true
+    },
+    "vue-cli-plugin-antd": {
+      "importType": "auto",
+      "style": true
+    },
+    "vue-cli-plugin-mocker": {
     }
   },
   "vueVersion": "3",
