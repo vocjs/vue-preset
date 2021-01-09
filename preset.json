@@ -18,18 +18,19 @@
     },
     "@vue/cli-plugin-unit-jest": {},
     "vue-cli-plugin-extend-base": {
-      "importType": "auto",
-      "style": true
+      "eslint": false,
+      "forkTsChecker": {}
     },
     "vue-cli-plugin-antd": {
       "importType": "auto",
       "style": true
     },
     "vue-cli-plugin-mocker": {
+      "dir": "mock",
+      "demo": true,
+      "mock": {}
     }
   },
   "vueVersion": "3",
   "cssPreprocessor": "dart-sass"
 }
-
-
