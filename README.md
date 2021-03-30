@@ -1,5 +1,11 @@
 # @vue/cli preset for jqsoft
 
+## 全局安装 @vue/cli
+
+```shell
+yarn global add @vue/cli
+```
+
 ## 创建项目
 
 ### 从 GitHub 获取预设

@@ -18,17 +18,25 @@
     },
     "@vue/cli-plugin-unit-jest": {},
     "vue-cli-plugin-extend-base": {
+      "prompts": true,
       "eslint": false,
       "forkTsChecker": {}
     },
-    "vue-cli-plugin-antd": {
-      "importType": "auto",
-      "style": true
-    },
     "vue-cli-plugin-mocker": {
+      "prompts": true,
       "dir": "mock",
       "demo": true,
       "mock": {}
+    },
+    "vue-cli-plugin-antd": {
+      "prompts": true,
+      "importType": "auto",
+      "style": true
+    },
+    "vue-cli-plugin-pro-layout": {
+      "prompts": true,
+      "importType": "auto",
+      "style": true
     }
   },
   "vueVersion": "3",
