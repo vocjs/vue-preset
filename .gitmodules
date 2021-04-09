@@ -1,6 +1,3 @@
-[submodule "vue-base-preset"]
-	path = vue-base-preset
+[submodule "base"]
+	path = base
 	url = https://github.com/vocjs/vue-base-preset.git
-[submodule "vue-admin-preset"]
-	path = vue-admin-preset
-	url = https://github.com/vocjs/vue-admin-preset.git
