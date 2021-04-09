@@ -27,16 +27,6 @@
       "dir": "mock",
       "demo": true,
       "mock": {}
-    },
-    "vue-cli-plugin-antd": {
-      "prompts": true,
-      "importType": "auto",
-      "style": true
-    },
-    "vue-cli-plugin-pro-layout": {
-      "prompts": true,
-      "importType": "auto",
-      "style": true
     }
   },
   "vueVersion": "3",

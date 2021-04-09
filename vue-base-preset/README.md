@@ -1,4 +1,4 @@
-# @vue/cli preset for jqsoft
+# @vue/cli preset
 
 ## 全局安装 @vue/cli
 
@@ -11,7 +11,7 @@ yarn global add @vue/cli
 ### 从 GitHub 获取预设
 ```shell
 # 从 GitHub repo 使用 preset
-vue create --preset coffee377/vue-jqsoft-preset project-name
+vue create --preset vocjs/vue-base-preset project-name
 ```
 
 ### 将预设保存到本地
