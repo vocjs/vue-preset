@@ -1,5 +1,6 @@
 = Vue3 Presets
 :icons: font
+:doctype: book
 :source-highlighter: rouge
 
 == 预设列表
@@ -15,6 +16,9 @@
 [source,bash]
 ----
 $ git clone https://github.com/vocjs/vue-preset.git <1>
+
+$ cd vue-preset
+
 $ git submodule update --init --recursive <2>
 ----
 <1> 克隆项目内容
