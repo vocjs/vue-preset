@@ -1,15 +1,21 @@
-= Vue3 Preset Summary
+= Vue3 Presets
 :icons: font
 :source-highlighter: rouge
 
-vue-base-preset:: 基础预设
+== 预设列表
 
-vue-admin-preset:: 后台管理预设
+|===
+|NAME |DESCRIPTION
+|https://github.com/vocjs/vue-base-preset.git[vue-base-preset]|基础预设
+|https://github.com/vocjs/vue-admin-preset.git[vue-admin-preset]|后台管理预设
+|===
+
+== 克隆项目
 
 [source,bash]
 ----
 $ git clone https://github.com/vocjs/vue-preset.git <1>
 $ git submodule update --init --recursive <2>
 ----
-<1> 克隆整个项目
+<1> 克隆项目内容
 <2> 下载子模块内容
